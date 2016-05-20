@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
   s.source_files = 'Spring/*.swift'
-  s.resources = ['Spring/*.xib', 'SpringApp/*.xcassets']
+  s.resources = ['SpringApp/*.xcassets']
+  s.ios.resources = ['Spring/*.xib']
 end

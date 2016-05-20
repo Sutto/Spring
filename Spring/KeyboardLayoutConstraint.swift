@@ -22,6 +22,8 @@
 
 import UIKit
 
+#if os(iOS)
+
 public class KeyboardLayoutConstraint: NSLayoutConstraint {
     
     private var offset : CGFloat = 0
@@ -104,3 +106,6 @@ public class KeyboardLayoutConstraint: NSLayoutConstraint {
     }
     
 }
+
+
+#endif
